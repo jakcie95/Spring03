@@ -19,4 +19,7 @@ public class MemberDAO {
 		// select * from table;
 		return list;
 	}
+	public MemberDTO login(MemberDTO dto) {
+		return dto;
+	}
 }
